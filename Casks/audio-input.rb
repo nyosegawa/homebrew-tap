@@ -14,7 +14,8 @@ cask "audio-input" do
 
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/AudioInput.app"]
+                   args: ["-cr", "#{appdir}/AudioInput.app"],
+                   sudo: false
   end
 
   zap trash: [
