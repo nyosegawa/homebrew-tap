@@ -1,5 +1,5 @@
 cask "audio-input" do
-  version "1.0.0"
+  version "1.0.1"
   sha256 :no_check
 
   url "https://github.com/nyosegawa/audio-input/releases/download/v#{version}/AudioInput.dmg"
